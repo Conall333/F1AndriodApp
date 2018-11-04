@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Back Page"
+        android:id="@+id/back_page"
+        android:orderInCategory="100"
+        />
+    <item
+        android:id="@+id/forward_page"
+        android:orderInCategory="110"
+        android:title="Forward Page"/>
+    <item
+        android:id="@+id/reload_page"
+        android:orderInCategory="120"
+        android:title="Reload Page"/>
+    <item
+        android:id="@+id/zoom_in"
+        android:orderInCategory="130"
+        android:title="Zoom In"/>
+    <item
+        android:id="@+id/zoom_out"
+        android:orderInCategory="140"
+        android:title="Zoom Out"/>
+
+</menu>

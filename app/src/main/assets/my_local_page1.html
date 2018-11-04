@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html style="margin:0; padding:0">
+
+<head>
+    <meta charset="utf-8"></meta>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
+    <title>Android WebView</title>
+
+</head>
+
+
+
+
+
+<body>
+<script type="text/javascript">
+    function changeHtml(html) {
+      var containerEl = document.getElementById('container')
+      var childEl = document.createElement('div')
+      containerEl.innerHTML = ''
+      childEl.innerHTML = html
+      containerEl.appendChild(childEl)
+    }
+  </script>
+<div id="container"></div>
+</body>
+
+</html>
+
+
+

@@ -15,7 +15,7 @@ public class CustomListview extends ArrayAdapter<String> {
     private String[] drivername,team;
     private Integer[] imgid;
     private Activity context;
-    
+
 
     public CustomListview(Activity context, String drivername[], String[] team, Integer[] imgid) {
         super(context, R.layout.listview_layout, drivername);
